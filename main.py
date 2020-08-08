@@ -31,7 +31,8 @@ while True:
 		delquery = input("del:  ")
 		system("cd files & del {}".format(delquery))
 	elif query.lower() == "dir":
-		system("cd files & dir")
+		dirquery = input("dir:  ")
+		system("cd files & dir {}".format(dirquery))
 	elif query.lower() == "help":
 		cp("Use command HELP <command> for help with a certain command\n", "yellow")
 		cp("cls     Clears the screen", "cyan")
@@ -104,6 +105,8 @@ while True:
 	elif query.lower() == "help dir":
 		cp("dir", "cyan")
 		cp("\nShows all files and subdirectories in a directory", "cyan")
+		cp("\nResult:", "cyan")
+		cp("\ndir: <[input]>", "cyan")
 	elif query.lower() == "help md" or query.lower() == "help mkdir":
 		cp("md", "cyan")
 		cp("mkdir", "cyan")
