@@ -10,3 +10,11 @@ How to get PyCMD for the first time:
 How to run PyCMD:
 1. Navigate to the folder you downloaded using file explorer or command prompt
 2. Run pystart using cmd
+
+# Troubleshooting
+
+Command is not working:
+1. Use the help command to make sure that the command is real. If there is one that you woukd like, please do a pull request.
+2. Use the help <command> to see how the command is used
+
+If all else fails, report it using the issues tab in github
