@@ -9,9 +9,7 @@ def clear():
 def cp(text, col):
     print(colored(text, col))
 
-try:
-	system("cd files")
-except:
+if os.path.isdir("files") == False:
 	system("md files")
 clear()
 cp("PyCMD V1.0", "yellow")
