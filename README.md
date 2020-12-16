@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="EvokerKing" data-color="#FF5F5F" data-emoji="🍕"  data-font="Comic" data-text="Buy me a pizza" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+
 # PyCMD Instructions
 
 ### How to get PyCMD for the first time:
